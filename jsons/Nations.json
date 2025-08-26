@@ -1,38 +1,36 @@
 [
-	{
-		"name": "Việt Nam",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+	//Việt Nam
+{
+	"name": "Việt Nam",
+	"adjective": ["Vietnamese"],
+	"leaderName": "Đinh Trung Hiền",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Buddhism",
+	"startBias": ["River", "Jungle", "Avoid [Desert]"],
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+	"declaringWar": "The path to peace is sometimes paved with struggle.",
+	"attacked": "Your aggression awakens the spirit of resistance in every Vietnamese heart. We have weathered many storms; this too shall pass.",
+	"defeated": "The wheel of history turns, and today it is not in our favor.",
+	"introduction": "Greetings, friend. I am Đinh Trung Hiền, a simple man who serves the Vietnamese people.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
+	"neutralHello": "Welcome. Let us sit together and share a cup of tea.",
+	"hateHello": "Reflect on your path, for it leads only to isolation and dishonor.",
+
+	"tradeRequest": "The strength of nations lies in cooperation.",
+
+	"outerColor": [239, 2, 2],
+	"innerColor": [255, 247, 9],
+
+	"uniqueName": "Độc Lập Tự Do Hạnh Phúc",
+	"uniques": ["[+10000 Gold] from every [City center]", "[+100]% Golden Age length", "[+10] [Happiness] [in all cities]", "[+22]% Strength <for [Land] units> <in [Jungle] tiles>",
+	"[+33]% to Flank Attack bonuses <for [Land] units> <in [Jungle] tiles>",
+	"[+1 Production, +1 Science] from each Trade Route",
+	"Comment [[Great Generals] can construct roads instantly in [Jungle] tiles]",
+	"Comment [Civilian units are able to be expended to plant [Jungle] tiles after discovering [Civil Service]]",
+	"[Civilian] units gain the [Great Viet Civilian Ability] promotion <hidden from users>",
+	"[Great Generals] units gain the [Vietnam Ability] promotion <hidden from users>",],
+
+	"spyNames": ["Minh", "Giap", "Anh", "Quang", "Khanh", "Linh", "Phong", "Tran", "Diem", "Bao"],
+	"cities": ["Hanoi", "Hue", "Haiphong", "Ha Long", "Dien Bien Phu", "Thai Nguyen", "Vinh", "Nam Dinh", "Hai Duong", "Bac Ninh", "Hoa Binh", "Lang Son", "Ha Giang", "Cao Bang", "Lao Cai", "Son La", "Thai Binh", "Ninh Binh", "Thanh Hoa", "Viet Tri", "Bac Giang", "Bac Kan", "Tuyen Quang", "Yen Bai", "Phu Tho"],
+},
 ]
